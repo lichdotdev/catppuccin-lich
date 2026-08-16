@@ -36,7 +36,7 @@
 
 ## Usage
 
-1. Open lich and go to **Settings → Appearance**.
+1. Open lich and go to **Settings > Appearance**.
 2. Next to **Theme**, click **Import**.
 3. Paste `https://github.com/omartelo/catppuccin-lich` and click **Install**.
 4. Pick a flavor in the theme picker.
