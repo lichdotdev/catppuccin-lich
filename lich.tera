@@ -1,0 +1,70 @@
+---
+whiskers:
+  version: "^2.9.0"
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}.json"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
+---
+{
+  "id": "catppuccin-{{ flavor.identifier }}",
+  "name": "Catppuccin {{ flavor.name }}",
+  "scheme": "{{ if(cond=flavor.dark, t="dark", f="light") }}",
+  "app": {
+    "background": "{{ base.hex }}",
+    "foreground": "{{ text.hex }}",
+    "card": "{{ surface0.hex }}",
+    "card-foreground": "{{ text.hex }}",
+    "popover": "{{ surface1.hex }}",
+    "popover-foreground": "{{ text.hex }}",
+    "primary": "{{ mauve.hex }}",
+    "primary-foreground": "{{ base.hex }}",
+    "secondary": "{{ surface0.hex }}",
+    "secondary-foreground": "{{ text.hex }}",
+    "muted": "{{ mantle.hex }}",
+    "muted-foreground": "{{ overlay1.hex }}",
+    "accent": "{{ surface1.hex }}",
+    "accent-foreground": "{{ text.hex }}",
+    "destructive": "{{ red.hex }}",
+    "border": "{{ surface1.hex }}",
+    "input": "{{ surface2.hex }}",
+    "ring": "{{ mauve.hex }}",
+    "chart-1": "{{ mauve.hex }}",
+    "chart-2": "{{ blue.hex }}",
+    "chart-3": "{{ green.hex }}",
+    "chart-4": "{{ peach.hex }}",
+    "chart-5": "{{ red.hex }}",
+    "sidebar": "{{ surface0.hex }}",
+    "sidebar-foreground": "{{ text.hex }}",
+    "sidebar-primary": "{{ mauve.hex }}",
+    "sidebar-primary-foreground": "{{ base.hex }}",
+    "sidebar-accent": "{{ surface1.hex }}",
+    "sidebar-accent-foreground": "{{ text.hex }}",
+    "sidebar-border": "{{ surface1.hex }}",
+    "sidebar-ring": "{{ mauve.hex }}"
+  },
+  "terminal": {
+    "background": "{{ base.hex }}",
+    "foreground": "{{ text.hex }}",
+    "cursor": "{{ rosewater.hex }}",
+    "cursorAccent": "{{ base.hex }}",
+    "selectionBackground": "{{ surface1.hex }}",
+    "selectionForeground": "{{ text.hex }}",
+    "black": "{{ surface1.hex }}",
+    "red": "{{ red.hex }}",
+    "green": "{{ green.hex }}",
+    "yellow": "{{ yellow.hex }}",
+    "blue": "{{ blue.hex }}",
+    "magenta": "{{ pink.hex }}",
+    "cyan": "{{ teal.hex }}",
+    "white": "{{ subtext1.hex }}",
+    "brightBlack": "{{ surface2.hex }}",
+    "brightRed": "{{ red.hex }}",
+    "brightGreen": "{{ green.hex }}",
+    "brightYellow": "{{ yellow.hex }}",
+    "brightBlue": "{{ blue.hex }}",
+    "brightMagenta": "{{ pink.hex }}",
+    "brightCyan": "{{ teal.hex }}",
+    "brightWhite": "{{ subtext0.hex }}"
+  }
+}
