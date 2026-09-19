@@ -56,7 +56,11 @@ together. Later releases are taken with **Update** on the theme's row.
   chrome (cards, sidebar), `surface1` the floating layers, hover fills and
   borders, and `surface2` the input edges. `text` is the type, `overlay1` the
   secondary text, `mauve` fills `primary` and the focus ring, `red` is
-  `destructive`, and the accents fill the charts and the sixteen ANSI slots.
+  `destructive`, `green` and `yellow` are the `tone-pass` and `tone-wait` the
+  status line speaks in, and the accents fill the charts and the sixteen ANSI
+  slots. On Latte those two are darkened (`#29661b`, `#7c4f10`): the flavor's own
+  values read 2.17:1 and 1.70:1 on its canvas, and the status line sets them at
+  12px, where WCAG asks 4.5:1. Hue and saturation are the flavor's.
 
 ## 💝 Thanks to
 
