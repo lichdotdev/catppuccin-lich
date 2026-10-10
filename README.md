@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/omartelo/catppuccin-lich/stargazers"><img src="https://img.shields.io/github/stars/omartelo/catppuccin-lich?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/omartelo/catppuccin-lich/issues"><img src="https://img.shields.io/github/issues/omartelo/catppuccin-lich?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/omartelo/catppuccin-lich/contributors"><img src="https://img.shields.io/github/contributors/omartelo/catppuccin-lich?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/lichdotdev/catppuccin-lich/stargazers"><img src="https://img.shields.io/github/stars/lichdotdev/catppuccin-lich?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/lichdotdev/catppuccin-lich/issues"><img src="https://img.shields.io/github/issues/lichdotdev/catppuccin-lich?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/lichdotdev/catppuccin-lich/contributors"><img src="https://img.shields.io/github/contributors/lichdotdev/catppuccin-lich?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -38,7 +38,7 @@
 
 1. Open lich and go to **Settings → Appearance**.
 2. Next to **Theme**, click **Import**.
-3. Paste `https://github.com/omartelo/catppuccin-lich` and click **Install**.
+3. Paste `https://github.com/lichdotdev/catppuccin-lich` and click **Install**.
 4. Pick a flavor in the theme picker.
 
 lich installs the whole pack at once, so all four flavors land in the picker
