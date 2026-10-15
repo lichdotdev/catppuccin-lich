@@ -2,6 +2,7 @@
   "id": "catppuccin-macchiato",
   "name": "Catppuccin Macchiato",
   "scheme": "dark",
+  "pair": "catppuccin-latte",
   "app": {
     "background": "#24273a",
     "foreground": "#cad3f5",

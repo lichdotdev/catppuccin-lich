@@ -2,6 +2,7 @@
   "id": "catppuccin-frappe",
   "name": "Catppuccin Frappé",
   "scheme": "dark",
+  "pair": "catppuccin-latte",
   "app": {
     "background": "#303446",
     "foreground": "#c6d0f5",

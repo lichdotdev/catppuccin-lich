@@ -2,6 +2,7 @@
   "id": "catppuccin-latte",
   "name": "Catppuccin Latte",
   "scheme": "light",
+  "pair": "catppuccin-mocha",
   "app": {
     "background": "#eff1f5",
     "foreground": "#4c4f69",
