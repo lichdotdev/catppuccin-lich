@@ -60,5 +60,59 @@
     "brightMagenta": "#f5c2e7",
     "brightCyan": "#94e2d5",
     "brightWhite": "#a6adc8"
+  },
+  "syntax": {
+    "keyword": "#cba6f7",
+    "name": "#cdd6f4",
+    "definition(name)": "#cdd6f4",
+    "deleted": "#cdd6f4",
+    "character": "#cdd6f4",
+    "macroName": "#cdd6f4",
+    "function(variableName)": "#89b4fa",
+    "function(propertyName)": "#89b4fa",
+    "propertyName": "#89b4fa",
+    "labelName": "#89b4fa",
+    "color": "#fab387",
+    "constant(name)": "#fab387",
+    "standard(name)": "#fab387",
+    "self": "#f38ba8",
+    "atom": "#f38ba8",
+    "typeName": "#f9e2af",
+    "className": "#f9e2af",
+    "changed": "#f9e2af",
+    "annotation": "#f9e2af",
+    "namespace": "#f9e2af",
+    "operator": "#89dceb",
+    "url": "#94e2d5",
+    "escape": "#f5c2e7",
+    "regexp": "#f5c2e7",
+    "meta": "#9399b2",
+    "punctuation": "#9399b2",
+    "separator": "#9399b2",
+    "comment": "#9399b2",
+    "strong": {
+      "bold": true
+    },
+    "emphasis": {
+      "italic": true
+    },
+    "strikethrough": {
+      "strikethrough": true
+    },
+    "link": {
+      "color": "#89b4fa",
+      "underline": true
+    },
+    "heading": {
+      "color": "#89b4fa",
+      "bold": true
+    },
+    "special(variableName)": "#b4befe",
+    "bool": "#fab387",
+    "number": "#fab387",
+    "processingInstruction": "#a6e3a1",
+    "string": "#a6e3a1",
+    "inserted": "#a6e3a1",
+    "invalid": "#f38ba8"
   }
 }

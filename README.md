@@ -62,6 +62,12 @@ together. Later releases are taken with **Update** on the theme's row.
   values read 2.17:1 and 1.70:1 on its canvas, and the status line sets them at
   12px, where WCAG asks 4.5:1. Hue and saturation are the flavor's.
 
+- Q: **_"Where do the code colors come from?"_**\
+  A: The `syntax` section, which lich's native window uses for code in the
+  review, diff and file views, is the highlight style of the official
+  [`@catppuccin/codemirror`](https://github.com/catppuccin/codemirror) theme,
+  spec by spec, in each flavor's colors.
+
 ## 💝 Thanks to
 
 - [omartelo](https://github.com/omartelo)
