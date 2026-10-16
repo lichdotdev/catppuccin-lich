@@ -114,6 +114,7 @@
     "processingInstruction": "#a6e3a1",
     "string": "#a6e3a1",
     "inserted": "#a6e3a1",
-    "invalid": "#f38ba8"
+    "invalid": "#f38ba8",
+    "definition(local(variableName))": "#eba0ac"
   }
 }
